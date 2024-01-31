@@ -10,7 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>servlet-logback</module>
-<!--        <module>commons-config</module>-->
+        <module>servlet-session-cookie</module>
+        <!--        <module>commons-config</module>-->
     </modules>
 
     <properties>
