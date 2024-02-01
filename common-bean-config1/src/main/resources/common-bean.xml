@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans >
+    <bean id="library" class="com.gskeno.beanconfig1.Library"></bean>
+</beans>

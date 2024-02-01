@@ -1,0 +1,4 @@
+package com.gskeno.beanconfig2;
+
+public class Boss {
+}

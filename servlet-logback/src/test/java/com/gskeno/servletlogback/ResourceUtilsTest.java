@@ -8,6 +8,10 @@ import java.net.URL;
 
 public class ResourceUtilsTest {
 
+    /**
+     * 只会在classpath下找第一个符合条件的资源
+     * @throws FileNotFoundException
+     */
     @Test
     public void test() throws FileNotFoundException {
         String resolvedLocation = "classpath:logback2.xml";

@@ -12,6 +12,9 @@
         <module>servlet-logback</module>
         <module>servlet-session-cookie</module>
         <module>spring-mvc</module>
+        <module>spring-test</module>
+        <!--        <module>common-bean-config1</module>-->
+<!--        <module>common-bean-config2</module>-->
         <!--        <module>commons-config</module>-->
     </modules>
 
@@ -83,6 +86,17 @@
                 <artifactId>commons-config</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
+            <dependency>
+                <groupId>com.gskeno</groupId>
+                <artifactId>common-bean-config2</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gskeno</groupId>
+                <artifactId>common-bean-config1</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
